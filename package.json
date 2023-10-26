@@ -1,0 +1,30 @@
+{
+  "name": "hw_unit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikolaytcev/HW_unit-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikolaytcev/HW_unit-test/issues"
+  },
+  "homepage": "https://github.com/Nikolaytcev/HW_unit-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "eslint": "^8.52.0",
+    "jest": "^29.7.0",
+    "jest-babel": "^1.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.33.1"
+  }
+}
