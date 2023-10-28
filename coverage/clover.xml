@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1698479718686" clover="3.2.0">
-  <project timestamp="1698479718686" name="All files">
+<coverage generated="1698484885874" clover="3.2.0">
+  <project timestamp="1698484885874" name="All files">
     <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="12" coveredelements="12" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
     <file name="checkHealth.js" path="D:\ДЗ_НЕТОЛОГИЯ\JS_advansed\HW_unit-test\src\js\checkHealth.js">
       <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
