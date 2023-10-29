@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1698595132883" clover="3.2.0">
-  <project timestamp="1698595132883" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="12" coveredelements="12" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
+<coverage generated="1698602147861" clover="3.2.0">
+  <project timestamp="1698602147862" name="All files">
+    <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4" elements="17" coveredelements="17" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
     <file name="checkHealth.js" path="D:\ДЗ_НЕТОЛОГИЯ\JS_advansed\HW_unit-test\src\js\checkHealth.js">
-      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="23" count="4" type="cond" truecount="2" falsecount="0"/>
+      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <line num="2" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
     </file>
   </project>
 </coverage>

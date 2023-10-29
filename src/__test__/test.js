@@ -1,9 +1,13 @@
 import { getIndicator, sortHeroesForhealth } from "../js/checkHealth";
 
-test("testing health of hero", () => {
-    const result = getIndicator({name: 'Маг', health: 90});
-    expect(result).toBe("healthy");
-})
+test.each([
+    [{name: 'Маг', health: 90}, "healthy"],
+    [{name: 'Лучник', health: 45}, "wounded"],
+    [{name: 'Орк', health: 10}, "critical"]
+])(
+    (`Health of %s match %s`), (hero, health) => {
+        expect(getIndicator(hero)).toBe(health);
+    })
 
 test("testing sort function", () => {
     const heroes = [

@@ -1,11 +1,15 @@
+function getHealth({health}) {
+    if (health <= 15) {
+      return 'critical'
+    }
+    if (health <= 50) {
+      return 'wounded'
+    }
+    return "healthy"
+  }
+
 export function getIndicator(hero) {
-    const indicators= {
-        "healthy": [50, 100],
-        "wounded": [15, 49],
-        "critical": [0, 14]
-    };
-    const health = Object.keys(indicators);
-    return health.filter(marker => hero.health >= indicators[marker][0] && hero.health <= indicators[marker][1])[0];
+    return getHealth(hero);
 }
 
 export function sortHeroesForhealth(heroes) {
